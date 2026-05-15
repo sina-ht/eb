@@ -87,8 +87,6 @@ char *optarg;		/* argument associated with option */
 
 #define	EMSG	""
 
-extern char *getenv();
-
 static int getopt_internal(int nargc, char * const *nargv,
     const char *options);
 static int gcd(int a, int b);
